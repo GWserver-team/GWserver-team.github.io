@@ -1,25 +1,28 @@
-.nav {
-  height : 50px;
-  border-bottom: 1px solid black;
-  display: flex;
+.nav{
   align-items: center;
 }
-.nav-items {
-  display: flex;
-  margin-left: auto;
-  margin-right: 10px;
+.nav ui{
+  list-style-type: none;
+  background-color: hsl(0, 0%, 25%);
+  padding: 0px;
+  margin: 0px;
+  overflow:hidden;
 }
 
-.nav-home {
-  margin-left:10px;
+.nav a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
 }
 
-.nav-intro {
-  margin-left:10px;
+.nav a:hover{
+  background-color: hsl(0, 0%, 10%);
 }
 
-.nav-server {
-  margin-left:10px;
+.nav li{
+  float: left;
 }
 
 .title {
